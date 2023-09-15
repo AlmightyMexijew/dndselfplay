@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Self-play</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <button onclick="hideinit()">Hide Initiative</button>
+            </li>
+            <li>
+                <button onclick="revealinit()">Reveal Initiative</button>
+            </li>
+            <li>
+                <button onclick="hideenemystats()">Hide Enemy Stats</button>
+            </li>
+            <li>
+                <button onclick="revealenemystats()">Reveal Enemy Stats</button>
+            </li>
+        </ul>
+    </header>
+    <div id="welcome">
+        <h1>Welcome to D&D self play</h1>
+        <p id="gametitle">We are currently playing the adventure called Dragon Heist.</p>
+        <h2>Roll is <span id="rollme"></span></h2>
+    </div>
+    <!--<section id="character">-->
+        <!--Important Character Stuff Here-->
+        <!--<p id="playername">Name:<span id="spanplayername"></span></p>
+        <p id="playerclass">Class:<span id="spanplayerclass"></span></p>
+        <p id="playerlevel">Level:<span id="spanplayerlevel"></span></p>
+        <p id="playerhp">HP:<span id="spanplayerhp"></span></p>
+        <p id="playerprofbonus">Proficiency bonus:<span id="spanplayerprofbonus"></span></p>
+        <p id="playerarmor">AC:<span id="spanplayerarmor"></span></p>
+        <p id="playerinitiative">Initiative:<span id="spanplayerinitiative"></span></p>
+        <button id="charswap" onclick="charswap()">Character Swap</button>
+        <hr/>
+        <input id="playerswapinput1" type="text">
+        <br/>
+        <span id="charlist"></span>
+        <hr/>
+        <button onclick="charbtn1()">1</button>
+        <button onclick="charbtn2()">2</button>
+        <button onclick="charbtn3()">3</button>
+        <button onclick="charbtn4()">4</button>
+        <button onclick="charbtn5()">5</button>
+        <button onclick="charbtn6()">6</button>
+    </section> -->
+    <section id="init">
+        <h2>Order of Initiative</h2>
+        <p id="initorder"></p>
+        <form>
+            <input type="text" id="initinput1">
+            <input type="number" id="initinput2">
+        </form>
+        <ul id="init-ul"></ul>
+        <button onclick="addLists()">Add and Refresh</button>
+        <button onclick="removeFromInit()">Remove</button>
+        <button onclick="saveinit()">Save to localstorage</button>
+        <button onclick="clearinit()">Clear localstorage(post battle)</button>
+    </section>
+    <section id="actions">
+        <div id="action1">
+            <label for="rollinput">Diceroll(input die size)</label>
+            <input type="number" id="rollinput">
+            <label for="rollinput2">Amount of Dice(if applies)</label>
+            <input type="number" id="rollinput2">
+            <button id="rollbtn"onclick="diceroll()">Diceroll</button>
+        </div>
+        <hr/>
+        <div id="action2">
+            <label for="skillinput1">Skill bonus</label>
+            <input type="number" id="skillinput1">
+            <label for="skillinput2">Proficiency Bonus(if applies)</label>
+            <input type="number" id="skillinput2">
+            <button id="skillbtn" onclick="skillcheck()">Skill Roll</button>
+        </div>
+        <hr/>
+        <div id="action3">
+            <label for="spellinput1">Caster Bonus</label>
+            <input id="spellinput1" type="number">
+            <label for="spellinput2">Proficiency Bonus</label>
+            <input id="spellinput2" type="number">
+            <button onclick="castspell()">Cast Spell(Like ranged attack)</button>
+        </div>
+        <div id="action4">
+            <label for="saveinput1">Save mod(stat or skill or both)</label>
+            <input id="saveinput1" type="number">
+            <label for="saveinput2">Proficiency Bonus</label>
+            <input id="saveinput2" type="number">
+            <button onclick="savingthrow()">Make a save</button>
+        </div>
+    </section>
+    <!--<section id="enemystat">
+        <h2>Enemy Stats</h2>
+        <form>
+            <label for="enemyinput">Search for enemy</label>
+            <input type="text">
+            <button onclick="enemysearch()">Search</button>
+        </form>
+        <div>
+            <p id="monstername">Name: <span id="spanmonstername"></span></p>
+            <p id="monstertype">Type(size,alignment): <span id="spanmonstertype"></span></p>
+            <p id="monsterAC">AC: <span id="spanmonsterAC"></span></p>
+            <p id="monsterHP">HP: <span id="spanmonsterhp"></span></p>
+            <p id="monsterspeed">Speed: <span id="spanmonsterspeed"></span></p>
+            <hr/>
+            <fieldset>
+                <legend>Stats</legend>
+                <p>STR: <span id="spanmonsterstr"></span></p>
+                <p>DEX: <span id="spanmonsterdex"></span></p>
+                <p>CON: <span id="spanmonstercon"></span></p>
+                <p>INT: <span id="spanmonsterint"></span></p>
+                <p>WIS: <span id="spanmonsterwis"></span></p>
+                <p>CHA: <span id="spanmonstercha"></span></p>
+            </fieldset>
+            <hr/>
+            <fieldset>
+                <legend>Skills n stuff</legend>
+                <p>Skills: <span id="monsterskills"></span></p>
+                <p>Senses: <span id="monstersenses"></span></p>
+                <p>Languages: <span id="monsterlanguages"></span></p>
+                <p>Challenge/XP: <span id="monsterxp"></span></p>
+            </fieldset>
+            <fieldset>
+                <legend>Unique skills n stuff</legend>
+                <ul>
+                    <p id="unique1"></p>
+                    <p id="unique2"></p>
+                    <p id="unique3"></p>
+                </ul>
+                <ul>
+                    Actions
+                    <li>
+                        <p id="monsteraction1">Action 1</p>
+                    </li>
+                    <li>
+                        <p id="monsteraction2">Action 2</p>
+                    </li>
+                    <li>
+                        <p id="monsteraction3">Action 3</p>
+                    </li>
+                </ul>
+            </fieldset>
+             
+        </div>
+    </section>
+    <section id="battle">
+        <h2>Battle Zone</h2>
+        <form>
+            <fieldset>
+                <legend>Choose who does what to who:</legend>
+                <fieldset>
+                    <legend>Choose who is attacker</legend>
+                        <div>
+                            <input type="checkbox" id="attackerplayer1" name="attackerplayer1">
+                            <label for="attackerplayer1">Player 1</label>
+                            <input type="checkbox" id="attackerplayer2" name="attackerplayer2">
+                            <label for="attackerplayer2">Player 2</label>
+                            <input type="checkbox" id="attackerplayer3" name="attackerplayer3">
+                            <label for="attackerplayer3">Player 3</label>
+                            <input type="checkbox" id="attackerplayer4" name="attackerplayer4">
+                            <label for="attackerplayer4">Player 4</label>
+                            <input type="checkbox" id="attackerplayer5" name="attackerplayer5">
+                            <label for="attackerplayer5">Player 5</label>
+                            <input type="checkbox" id="attackerplayer6" name="attackerplayer6">
+                            <label for="attackerplayer6">Player 6</label>
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <legend>Who is defender</legend>
+                        <input type="checkbox" id="defenderplayer1" name="defenderplayer1">
+                        <label for="defenderplayer1">Player 1</label>
+                        <input type="checkbox" id="defenderplayer2" name="defenderplayer2">
+                        <label for="defenderplayer2">Player 2</label>
+                        <input type="checkbox" id="defenderplayer3" name="defenderplayer3">
+                        <label for="defenderplayer3">Player 3</label>
+                        <input type="checkbox" id="defenderplayer4" name="defenderplayer4">
+                        <label for="defenderplayer4">Player 4</label>
+                        <input type="checkbox" id="defenderplayer5" name="defenderplayer5">
+                        <label for="defenderplayer5">Player 5</label>
+                        <input type="checkbox" id="defenderplayer6" name="defenderplayer6">
+                        <label for="defenderplayer6">Player 6</label>
+                    </div>
+                </fieldset>
+                <button id="applybattlezone" click="applybattle">Apply BattleZone</button>
+                <button id="battlezone">Fight</button>
+            </fieldset>
+    </section>
+    <section id="skills">
+        <h2>Skill Zone</h2>
+        <ul id="skillslist">
+            <li id="p1skill_acrobatics">Acrobatics[<span id="p1_acrobonus"></span>]</li>
+            <li id="p1skill_animalhandling">Animal Handling[<span id="p1_animalhanbonus"></span>]</li>
+            <li id="p1skill_arcana">Arcana[<span id="p1_arcanabonus"></span>]</li>
+            <li id="p1skill_athletics">Athletics[<span id="p1_athleticsbonus"></span>]</li>
+            <li id="p1skill_deception">Deception[<span id="p1_deceptionbonus"></span>]</li>
+            <li id="p1skill_history">History[<span id="p1_historybonus"></span>]</li>
+            <li id="p1skill_insight">Insight[<span id="p1_insightbonus"></span>]</li>
+            <li id="p1skill_intimidation">Intimidation[<span id="p1_intimidationbonus"></span>]</li>
+            <li id="p1skill_investigation">Investigation[<span id="p1_investigationbonus"></span>]</li>
+            <li id="p1skill_medicine">Medicine[<span id="p1_medicinebonus"></span>]</li>
+            <li id="p1skill_nature">Nature[<span id="p1_naturebonus"></span>]</li>
+            <li id="p1skill_perception">Perception[<span id="p1_perceptionbonus"></span>]</li>
+            <li id="p1skill_performance">Performance[<span id="p1_performancebonus"></span>]</li>
+            <li id="p1skill_persuasion">Persuasion[<span id="p1_persuasionbonus"></span>]</li>
+            <li id="p1skill_religion">Religion[<span id="p1_religionbonus"></span>]</li>
+            <li id="p1skill_sleighthand">Sleight of Hand[<span id="p1_slighthandbonus"></span>]</li>
+            <li id="p1skill_stealth">Stealth[<span id="p1_stealthbonus"></span>]</li>
+            <li id="p1skill_survival">Survival[<span id="p1_survivalbonus"></span>]</li>
+        </ul>
+    </section>
+    <section id="battlemap">
+        <label for="gridinput">insert the X axis size</label>
+        <input id="gridinput">
+        <label for="gridinput2">insert the Y axis size</label>
+        <input id="gridinput2">
+        <canvas id="canvas"></canvas>
+    </section>-->
+    <section id="commonspells">
+        <ul id="mostcommonspells">
+            <li id="eldritchblastli">Eldritch Blast
+                <form>
+                    <label for="eldritchblastinput1">Enemy AC</label>
+                    <input type="number" id="eldritchblastinput1" size="5">
+                    <br>
+                    <label for="eldritchblastinput2">Player Atk Bonus</label>
+                    <input type="number" id="eldritchblastinput2" size="3">
+                    <br>
+                    <label for="eldritchblastinput3">Player Level</label>
+                    <input type="number" id="eldritchblastinput3" size="5">
+                </form>
+                <p id="eldritchblastoutput1"></p>
+                <button id="btn-eldritchblast" onclick="eldritchblast()">Eldritch Blast'em</button>
+            </li>
+            <hr>
+            <li id="fireboltli">Firebolt
+                <form>
+                    <label for="fireboltinput1">Enemy AC</label>
+                    <input type="number" id="fireboltinput1" size="5">
+                    <br>
+                    <label for="fireboltinput2">Player Atk Bonus</label>
+                    <input type="number" id="fireboltinput2" size="5">
+                    <br>
+                    <label for="fireboltinput3">Player Level</label>
+                    <input type="number" id="fireboltinput3" size="5">
+                </form>
+                <p id="fireboltoutput"></p>
+                <button id="btn-firebolt" onclick="firebolt()">Firebolt</button>
+            </li>
+            <hr>
+            <li id="fireball">Fireball
+                <form>
+                    <label for="fireballinput1">Level</label>
+                    <input type="number" id="fireballinput1" size="5">
+                </form>
+                <p>Damage:<span id="fireballspan1"></span></p>
+                <p>Half-Damage/Success: <span id="fireballspan2"></span></p>
+                <button id="btn-fireball">Fireball</button>
+            </li>
+            <hr>
+            <li id="mindsliver">Mind sliver
+                <form>
+                    <label for="mindsliverinput1">Level</label>
+                    <input type="number" id="mindsliverinput1" size="5">
+                    <label for="mindsliverinput2">DC</label>
+                    <input type="number" id="mindsliverinput2" size="5">
+                </form>
+                <p>Damage if fail:<span id="mindsliveroutput1"></span>. <span id="mindsliveroutput2"></span> damage to rolls until next turn of victim</p>
+            </li>
+            <hr>
+        </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

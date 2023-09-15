@@ -1,0 +1,357 @@
+THIS SPACE IS FOR ENCOUNTERS TO TRACK HP,SPELLS,ETC:
+---------------
+
+The Vault: 
+PARTY:
+Gak:AC12,INIT:+1 ,34HP start.
+**Casts:
+Shump:AC18, INIT:+7 ,42HP start  -26 fall bludgeon dmg = 16hp +20hp from short rest = 36hp.
+**maneuvers: 
+Jao:AC14,INIT:+3  ,27hp start - 20 fall bludgeon dmg = 7hp +7hp from short rest = 14hp.
+**Casts:
+Blaze:AC11,INIT:+1, 28hp start
+**Casts:
+Darv:AC10, INIT:+0, 19hp start
+**Casts: 
+
+FRIENDS:
+Renaer(found p216):AC17,INIT:+4,66HP start. - 14 = 52hp +7hp = 59hp.
+Esvele:AC16,INIT:+4,84HP start.
+Laeral: AC18, 228HP start
+----------
+Exiting the Vault:
+PARTY:
+Gak: AC12,INIT +1,34HP start
+**Gak Casts:
+Shump:AC18,INIT+7,36hp start
+**Shump maneuvers:maneuver1(-1d8),maneuver2(-1d8).
+Jao:AC14,INIT+3,14hp start
+**Jao casts(soulknife/shadowtouched stuff):
+Blaze:AC11,INIT+1,28hp start
+Darv: AC10,INIT+0,19hp start
+
+FRIENDS:
+Esvele:AC16,INIT+4,84hp start - 40 = 44hp
+
+ENEMY:
+CF1:AC13,INIT+2,33hp start -7 firedmg = 26hp -1firedmg = 25hp - 3psydmg = 22hp - 21pierce = 1hp
+**CF1 casts:hold person(Esvele) 1 of 3 L2.,shield of faith(1 of 4 L1),inflict wounds (2 of 4 L1).
+CF2:AC13,INIT+2,33hp start-7 psydmg = 26hp -4 forcedmg = 22hp -9 force dmg -3force dmg = 10hp - 12 pierce = dead
+**CF2 casts:command(1 of 4 L1),inflict wounds(2 of 4 L1).,inflict wounds (3 of 4),inflict wounds (4 of 4 L1).
+CF3:AC13,INIT+2,33hp start -9 piercingdmg = 24hp -10 piercing = 14hp - 7piercing  = 7hp - 8psydmg = dead.
+**CF3 casts:
+C1:AC12,INIT+1,9HP start - 9hp = dead
+C2:AC12,INIT+1,9HP start - 12hp = dead
+C3:AC12,INIT+1,9HP start - 12hp = dead.
+
+
+CF3:
+----------------------------------------
+Post-Vault Health:
+Gak:AC12,INIT +1,40HP.
+Shump:AC18,INIT+7,50HP
+JAO:AC14,INIT+3,36HP.
+Blaze:AC11,INIT+1,36HP
+Darv:AC10,INIT+0,22HP
+----------------------
+L5 XP: 6,500.
+Events since then:
+1) purchased magic items
+2) 100 XP to Darv on Lore Check for Asmodeus
+3) 100 XP to Jao for passing disguise+persuasion
+4) guard2 dies - 25xp Gak/Jao = 12.5 each
+5) guard 1 dies- 25xp Gak/Jao = 12.5 each
+6) Victoro disabled: CR10(5900xp) Gak/Jao. = 5900/2 = 2950 each
+7) 100xp to Jao, persuasion 
+8) 250xp to Gak, persuasion
+9) 100xp to Gak,knowledge check
+10)Laiba CR2: 450xp Gak/Jao/Shump= 225 each
+11)Tissina CR2:450xp Gak/Jao/Shump = 225 each
+12)50xp opening chest Jao
+13)100xp lockpick Jao
+14)Imp1 dies(200xp) Gak/Jao/Shump = 66xp
+15)Imp2 dies(200xp) Gak/Jao/Shump = 66xp
+
+100xp Darv
+-----
+Encounter on Day 7
+2 ogres vs party
+Ogre1: 59-7=52hp(round1).-8 = 44hp(round1).-4=40hp(round1).-20=20hp(round2)-10=10hp(round2)-22 = DEAD (round 3).
+Shump:50 - 16 = 34hp(round1).
+Ogre2: 59-6 = 53hp(round1).-3 = 50hp(round1)-20=30hp(round2)-21=9hp(round3).-8=1hp(round3).
+-----------
+Encounter on Day 8
+2 ogres vs party
+Ogre2:59-7=52hp(round1).-10=42hp(round2).-9=33hp(round3)-16=17hp(round3).-8 = 9hp(round3). 
+Gak:40-14=26hp(round1).
+Ogre1: 59-11=48hp(round1).-14=34(round1) -14dmg = 20hp.(round2)-9=11hp(round2).-13dmg = dead(round3)
+
+
+1 of 4 superiority die used by Shump(round1).
+
+Blaze:36-14=22hp(round1).
+----------
+Encounter on Day 9
+12 bullywugs vs party
+
+B1: 11hp - 12dmg = dead (round1)
+B2: 11hp - 11 firedmg = dead (round1)
+B3:11hp - 8dmg = 3hp(round1).-9=dead(round2)
+B4:11hp - 12dmg = dead(round2)
+HB1:11hp-12dmg = dead(round3).
+HB2:11hp-13 = dead(round3)
+HB3:11-4=8hp(round3)-5psy dmg = 3hp(round3)-4dmg = dead(round3)
+HB4: fled
+HB5:11-5=6hp(round1).-6psy dmg = dead(round1)
+HB6:11-16=dead(round2)
+HB7:11-6=5hp(round3)-6dmg = dead(round4)
+HB8:11-11psydmg=dead(round2)
+Party:
+Gak:
+Shump:50 - 8 = 42hp(round1) -2dmg (round3).=39hp.
+Jao:
+Blaze:
+Darv:
+
+Shump maneuver points/superiority die: -1 for sweeping attack.roll=4. 
+--------------
+Encounter day 10 vs 12 human bandits.
+
+Gak: 46-4=42hp(round1).-8=34hp
+B1:11-16firedmg = dead(round1)
+B2:11-28=dead(round2).
+B3:11-14=dead(round2)
+B4:11-10=1hp(round2)-11=dead(round2)
+B5:11-14fire = dead(round2)
+B6:11-6=5 -7 = dead(round2)
+B7:11-15=dead(round2)
+B8:11-10=1hp(round3)-7psy dmg = dead (round 3).
+B9:11-28fire = dead(round2)
+B10:11-28fire = dead (round2)
+B11:11-7=4hp(round2)-15force = dead(round3)
+B12:11-28fire = dead(round2)
+-------------------
+B1:11-6=5hp(round3)-8=dead(round3)
+B2:dead(round2)
+B3:11-12=dead(round4)
+B4:dead(round3)
+B5:dead(round 2)
+B6:11-13=dead(round4)
+B7:11-4=7hp-7=dead(round3)
+B8:dead(round1)
+B9:dead(round2)
+B10:dead(round 1)
+F1:18-6psy = 12hp(round3).-4=9hp(round4)-6(round4)=3hp. 
+F2:18-10=8(round3)-8=dead(round4)
+F3:dead(round2)
+F4:18-9=9hp(round3)
+B and F that were incapacitated until now: 1,6.
+Gak:46-2=44hp(round3)-2dmg (round4)=42hp
+Shump:50-5=45hp(round2)-2=43hp(round3)
+Jao:45-9=36hp(round2)-5=31hp(round3)-3=28hp
+Blaze:36-10=26hp(round3).
+Darv:22-2=20-4(round1)=16hp.(round2)
+
+Who is engaged with who currently:
+B1:attacking Blaze.
+B2:dead.
+B3:Jao.
+B4:Shump.  Dead (round3)
+B5:dead.
+B6:Shump.
+B7:Jao.dead(round3)
+B8:dead.
+B9:dead.
+B10:dead.
+F1:Darv.
+F2:Shump.
+F3:dead.
+F4:was stunned during turn.
+By group:
+Gak: none
+Shump:B4,B6,F2.
+Jao:B3,B7.
+Blaze:B1.
+Darv:F1.
+-------------------
+spells: Darv(hypnotic pattern x 1, L3, 1 of 2)
+Blaze(quickened firebolt =-2 of 5 sorc points = 3 sorc points left)
+------
+Encounter centipede vs 10 giant centipedes.
+GC10: 4 -21 = very dead(round 1).
+Gak 42 - 14 = 28hp(round 1).28-3=25hp(round1).
+GC6:4-8dmg = dead(round1)
+Shump: 43-17=26(round 1)
+GC1:4-8firedmg = dead(round1)
+GC5:4-8firedmg = dead(round1)
+GC9:4-17firedmg = dead(round1)
+GC7:4-17firedmg = dead(round1)
+GC4:4-17firedmg = dead(round1)
+GC2:4-17firedmg = dead(round1)
+GC3:4-6psydmg = dead(round1)
+GC8:4-6psydmg = dead(round1).
+-----
+Long rest in tower:
+Gak:46hp max
+Shump:50hp max
+Jao:45hp max
+Blaze:36hp max
+Darv:22hpmax
+Gak:16085 + 600xp = 16685xp
+Shump:12009+600xp = 12609xp
+Jao:14835+600 = 
+Blaze:11927 + 650 =
+Darv:10477 + 600 = 
+------------
+Battle with Pharlex.
+Shump:50hp - 12 = 38hp(round1)
+B10:11-7=4hp(round1)-16dmg(round2) = dead
+B1-B9 dead.(round 1)
+Pharblex: 59-26=33hp-10psy = 23hp(round1) - 21hp(round1)=2hp + 17hp(round2) = 19hp. - 9(round2) = 10hp - 7psy(round2) = 3hp - 8(round2) = dead.
+DSB1:11-5=6hp(round1) -9(round2) = dead
+DSB2:11-5=6hp(round1)
+DSB3:11-5=6hp(round1)
+DSB4:11-5=6hp(round1) - 14dmg = dead(round3)
+DSB5:11-5=6hp(round1) - 13dmg = dead(round2)
+DSB6:11-5=6hp(round1) - 7dmg = dead(round3)
+spells:
+*Fireball x1 Blaze(round1)  // 1 of 3 post-L6 level up.
+*Cure wounds L3 slot x 1, Pharblex(round2).
+-----------
+Big battle with cultists in courtyard of castle.surprise attack
+
+DWing6: 33-11=22hp(round1)-9=13hp(round1)-7 forcedmg(round1) = 6hp-6(round2) = dead.
+Shump:38+6=44 - 5(round1)=39hp-8(round3)=31hp-15dmg(round3)=16hp -15(round4) = 1hp.
+Dwing7:33-10=23hp(round1)-6(round1)=17hp-11forcedmg(round1)=6hp-12(round2)=dead
+Jao:45-8(round1)=37hp.-7(round1)=30hp-21dmg(round2) = 9hp.
+Dralmorrer: 52-7(round1) = 45hp-10-8 (round2 *2)=27hp.-4(round2)=23hp-12(round2) = 11hp.-8(round2)=3-7(round3)= dead.
+Gak:46-15firedmg(round1) = 31hp - 4(round3) = 27hp.
+C9:11-5=6hp(round1).-7dmg(round1) = dead.
+Dwing2: 33-6(round3)=27hp - 7psy (round3)=20hp-12(round4)=8hp.-6dmg(round4)=2hp.-4(round4)=dead.
+C1:11-9(round3)=2hp-5(round3)=dead.
+C7:11-5(round3)=6hp.-5(round4)=1hp. = dead by attrition.
+Dwing1:33-22(round4)=11hp-12(round5) = dead.
+Blaze: 44-2(round4)=42hp
+C10:11-12(round5)=dead.
+C6:11-7(round5)=4hp.-4(round5) = dead.
+C2:11-10=1hp-3dmg=dead(round5)
+C3:11-8=3hp-3dmg =dead(round5)
+C5:dead..
+C7:11-5(round3) -5 (round4) =1hp -7(round5) = dead.
+Dwing4:33-27(round6)-13(round7)=dead
+Dwing5:33-27(round6)-12(round7)=dead
+Dwing3:33-13(round7)=20hp.
+Darv -1 sorc point of 5.
+Spells: Darv used 2 L3 slot for dissonant whispers. 0 L3 slot remaining.
+Blaze used 1 L3 slot of 3 for Haste on Shump. He already is -1 L3 slot for fireball with Pharblex encounter. He casts fireball and has 0 L3 left.
+Blaze used 2 of 6 sorc points to bend luck on himself.2 sorc points to bend luck on Shump.=4 of 6 used. 6 of 6 points used as Blaze tries to save Shump.
+Dralmorrer misty step L3 1 of 2.
+Shump used 1 of 4 superiority d8 dice on sweeping attack.
+------------------
+Red Wizard battle by init 
+Shump(init24):66-15firedmg(round2) = 51hp
+Rath(init18):71-21(round1)=50hp-17dmg(round1) = 33hp - 7psydmg(round2) = 26hp-7psydmg = 19hp.-12(round3)=7hp-29(round4)=dead
+G4(init16):52-27(round2)-10(round2) = 15hp-9(round3)=6hp-10dmg(round3) = dead.
+Blaze(init11):52-7firedmg(round2) = 45hp
+Jao(init9):
+Azbara Jos(init8):39-20(round1)=19hp -6necrotic hex = 13hp- 7dmg(round1) = 6hp-5hp(round2)=1hp-15dmg(round3)=dead.
+Darv(init8):34-30firedmg(round2) = 4hp +9hp(round3 potion) = 13hp
+Gak(init2):51-30firedmg(round2) = 21hp
+
+Caster/Ability tracking:
+Shump:Hex ability (on Azbara. 1d6 necrotic on contact. int ability at disadvantage)
+Rath:Mirror image(1 of 3 L2), Greater Invisibility(L4 1 of 3 slots)
+G4:
+Blaze:haste(1 of 3 L3),Chromatic Orb(1 of 4 L1), -2/7 points on Bend Luck Round 5 on Gak. 
+Jao:
+Azbara:Mage Armor scroll(1 of 2). Fireball L3 (1 of 3)
+Darv:Enemies Abound(1 of 3 L3)
+Gak:Kiss of Mephisto -1 spell slot of 2.
+------
+Rezmir and friends join the party
+Blaze cast in round 1 of prior battle. At round 10, Shump tires briefly til round 12.
+Blaze spell count: haste (1 of 3 L3),Chromatic Orb(1 of 4 L1), Fireball (2 of 3 L3)
+
+Fireball damage hurts GD1,2, DW 1- 9 for 31dmg. Rezmir and DW10 only take 16dmg.
+Rezmir and DW10 suffer 16 fire dmg. GD1,GD2,DW1 – 9 all fail and receive 31dmg.
+Rezmir 90hp → 74hp
+GD1,2 go from 52hp → 21hp.
+DW1-9 go from 33hp → 2hp.
+DW10 33hp → 17hp
+
+Fireball2 aftermath:
+Dex saves: vs DC14
+Rezmir:18+6=24.pass
+GD1:9+0=9.fail.
+GD2:15+0=15 pass
+DW1:5+2=7 fail
+DW2: 7+2=9 fail
+DW3:15+2= 17 pass
+DW4:8+2=10 fail
+DW5:9+2=11 fail
+DW6:15+2=17 pass
+DW7:1+2=3 fail
+DW8:2+2=4 fail
+DW9:4+2=6 fail
+DW10:8+2=10 fail
+Rezmir hp 60-12 = 48hp
+GD1 = 21hp – 25dmg = dead
+GD2 = 21 hp – 12dmg = 9hp
+DW1: 2hp -25 = dead
+DW2:2hp -25hp = dead
+DW3: 2-12hp=dead
+DW4:2hp-25hp =dead
+DW5:2hp – 25hp = dead
+DW6: 2hp – 12hp = dead
+DW7: 2hp – 25hp = dead
+DW8:2 – 25hp = dead
+DW9 2 – 25hp = dead
+DW10: 17hp – 25hp =dead
+]-------------------------------------
+Vampire encounter
+Gak:
+Shump:66-7(round1)=59-5(round2)=54.-30(round4)=24hp-8(round5)=16hp-17hp = -1 ->1
+Jao:
+Blaze:
+Darv:
+Ogre1:59-17(round9)=42hp-18(round10)=24hp-21=3hp-14(round12)=dead.
+Ogre2:59-20(round2)=39hp.-11(round3)=28hp-30hp(round4)=dead
+Ogre3:59-30(round4)=29hp-24=5hp
+Ogre4:59-27(round4)=32hp-15(round5)=17hp
+Ogre5:
+Ogre6:59-15(round1)=44hp-8(round2)=36hp-15(round3)=21hp-12(round5)=9hp
+Sandesyl:144-21(round1)=123hp-2 firedmg(round1)=121hp+20=141hp-11(round2)=130hp-7(round2)=123hp+20(round3)=143hp-2(round3)=141hp.+heal(round4) = 144. - 30(round4)=114hp - 10(round4)=104hp-(round4)=98hp-8(round4)=90hp+20(round5)=110hp-9(round5)=101hp - 15(round5)=86hp - 8(round5)=78hp -4(round5) = 74hp. -+20hp(round6)=94hp-7(round6)=87hp-7(round6)=80-9(round6)=71+20(round7)=91hp.-9(round7)=82hp-13hp(round7)=69hp.-8hp(round7)=61hp.+20(round8)=81hp.-2(round8)=79hp-1(round8)=78-20(round8)=58-11(round8)=47.-5(round8)=42hp +20(round9) = 62hp-5(round9)=57hp-15(round9)=42hp-14(round9)=28hp -8(round9)=20hp.+20(round10)=40-9(round10)=31-17(round10)=14.-6(round10) = 8 +20(round11) = 28hp.-9(round11)=19hp -12(round11)=7hp -5(round11)=2hp.
+Consort1:82-7(round1)=75hp-7(round1)=68hp-9(round1)=59hp+10(round2)=69hp-8(round2)=61hp-14fire(round2)=47hp-9(round2)=38hp-4(round2)=34hp+10hp(round3)=44hp-5(round3)=39hp-11(round3)=28hp-12(round3)=16hp-5(round3)=11hp+10(round4)=21hp -12(round4) = 9hp-15 = dead.
+Consort2:82-14(round1)=68hp-6(round1)=62hp+10(round2)=72hp.-10dmg(round2)=62hp-8(round2)=54hp.-24fire(round2)=30hp+10hp(round3)=40hp-12(round3)=28hp-10(round3)=18hp-8(round3)=10hp.-5(round2)=5hp+10(round4) = 15hp.-15=dead.
+------------------
+Dragon encounter
+Gak:51-22cold(round1)=29hp
+Shump:66-45=21hp+7hp(round3potion)=28hp.
+Jao:52-45=7hp+5hp(potion1 of 2)=12hp+7hp(round3)=19hp
+Blaze:52-45=7hp
+Darv:34-45=unconscious
+Dragon:200-10psy(round1)= 190 - 29fire(round1) = 161hp - 4psy(round1) = 157hp -17blunt (round1) = 140hp-16combined(slash/necro)(round2) = 124hp -16fire(round2)=108hp.-30fire(round3)=78hp. - 20dmg(slash,necro)(round3)=58hp-19fire(round3)=39-20fire(round4)=19hp-8psy=11hp-48(slash/necro)(round4) = dead.
+Barlgura demon:68hp - 13blunt(round1)=55hp==gone(round2)
+----------------------
+Entryway battle Yuan-ti base
+Gak:15(from before)+12hp(potionround3)=27hp
+Shump:46(from before)-4(round1)=42hp-35(round5)=7hp
+Jao:60-7(round1)=53hp-6(round1)=47hp
+Blaze:25(from before)-15(round8)=10hp
+Darv:41
+LF1:22-21(sneakattack round1)= 1hp-1mindmg=dead
+LF2:27dmg(round1) = dead.
+LF3:22-16(round2)=6hp-11firedmg(round2)=dead.
+LF4:22-13(round1)=9hp-9(round2)=dead
+LF5:22-24fire(round1) = dead
+LF6:22-11fire(round2) = 11hp-10fire(round5)=1hp-falldmg(round5)=dead
+LF7:22-10fire(round6)=12hp-23fire(round8)=dead
+LF8:22-20fire(round6)=2hp
+LF9:22-20fire(round6)=2hp
+LF10:22-35falldmg(round5)=dead
+LF11:22-20fire(round6)=2hp-23fire(round8)=dead
+LF12:22-20fire(round6)=2hp
+YTM1:66-20firedmg(round6)
+YTM2:66-20firedmg(round6)-17firedmg(round6)=31hp-29falldmg(round6)=2hp left.
+YTM3:66-10firedmg(round6)=56-13fire(rond7)=43hp-23=20hp
+

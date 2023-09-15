@@ -1,0 +1,30 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+body{display:grid;grid-template-columns:20% 20% 20% 20% 20%;grid-template-rows:10vh 1fr 1fr;}
+header{grid-row:1;}
+header ul {display:flex;list-style:none;height:100%;}
+header ul li{padding-inline:2vw;}
+header ul li button{height:8vh;width:5vw;}
+#welcome{border:2px solid red;grid-row:2;}
+#welcome h1{font-size:24px;}
+#rollme{word-wrap:break-word;width:100%;}
+#actions input{width:50px;}
+#character{grid-row:2;}
+#init{grid-row:2;}
+#actions{grid-row:2;}
+#character p{font-weight:bold;}
+#character span{border:2px solid red;color:green;}
+#skillslist {list-style:none;margin-left:.5em;}
+#skillslist span{color:orange;}
+#enemystat{grid-row:2;border:2px solid brown;}
+#commonspells{grid-row:2;border:2px solid purple;}
+#commonspells li{list-style: none;margin-inline:2px;}
+#canvas{
+    grid-row:3;
+    height:500px;
+    width:500px;
+    border: 1px dotted black;
+    cursor: crosshair;
+    background: #ecf0f1;}
+#battle{grid-row:3;}
+#battlemap{grid-row:3;}
+#skills{grid-row:3;}

@@ -1,0 +1,59 @@
+hp tracker
+use arrays to hold info
+array for names, subarray for health/dmg count
+inputs in forms
+add button adds to arrays, delete ships to "deleted items" array that holds info there but keeps it removed from showing
+if works well, build in init like this
+
+build vanilla first...then reactize and see which is simpler to implement with the current model.
+
+------------
+Dev note 1: to-do list functionality in vanilla js:
+make function addTodo(event){
+//prevent form from submitting if using in form
+event.preventDefault();
+//Todo DIV
+const todoDiv = document.createElement("div");
+todoDiv.classList.add("todo");
+//Create LI
+const newTodo = document.createElement('li');
+newTodo.innerText = 'hey';
+newTodo.classList.add('todo-item');
+todoDiv.appendChild(newTodo);
+//Check mark button
+const completedButton = document.createElement('button');
+completedButton.innerText = 'ajjkathkat';
+//innerHTML if adding html for fontawesome
+completedButton.classList.add("complete-btn");
+todoDiv.appendChild(completedButton);
+//Check trash button
+const completedButton = document.createElement('button');
+completedButton.innerHTML = 'fontawesome stuff here';
+completedButton.classList.add("complete-btn");
+todoDiv.appendChild(completedButton);
+//APPEND TO LIST
+todoList.appendChild(todoDiv);
+}
+----------------
+Observations from Aug 14.
+After dabbling in ChatGPT AI, it seems that progress was definitely possible.
+
+We achieved the following goals:
+*implement an intiative list system
+*impelemnt a localstorage system
+*remove other functionality that was not ready or helpful.
+
+The dice-roller aspect is the most useful while the object side is so far behind that I have commented it out of the ocde for the sake of making things lighter overall. At some point when we master it, we will return to this task.
+---------
+random aug31 thought:
+most common spell roller.
+make it like attack but set internal math based on level and rolls --> outcome is accurate damage roll.
+maybe for DC rolls, include half damage type stuff (like fireball).
+--------
+random sept 1 thought:
+an expansion on the above...why not set DC, AC, and have it make the comparison math and spit out hit/miss/effect.
+for damage: show N + N +N +N = Nfinal for the sake of understanding
+for DC: input to receive DC
+for AC: input to receive AC
+Equation compares d20 to DC or AC(depending on spell) and then runs the proper dice roll from spell and spells out outcome.
+

@@ -1,0 +1,164 @@
+party:
+*water genasi character I previously made
+*human abberant mind sorcerer who is friends with him on the basis that the AMS responded back to his telepathic statement with sarcasm, causing pleasant surprise and leading to an almost brotherhood-like friendship.
+*rogue -> soulknife at l3
+*fire sorc/wiz/whatever who is fire genasi..normal human look except bright ginger hair..gets mad at everyone who implies something about him/her and fire as "against gingers"..
+*fighter whose role is to tank...polearm master feat..polearm orientation. goal is to stand there, hurt and be hurt while blasters blast.
+
+dev notes:
+use list of objects with lists in it
+for items and stuff, put in list [] but have variables that we change as necessary.
+
+dice rolls d4,d6,d8,d10,d12,d20,d100  as functions.to simplify we can set it to take a parameter num and it will be math.random * num. This cuts down the amount of rolls we needs to make. 
+---------
+**Instead of full charsheet, we'll get relevant bonus rolls per character and put them in the object.
+We'll use individual charsheet pdf's to track chars.
+What we'll track however is hitpoints and that sort of thing so that we can have attack/defense/damage/etc.
+------------
+Character interactions:
+Gak and Derv are friends who met after a comical telepathic discourse where they discovered they both share that
+Gak happened to also acquire his companions Jao and Blaze...Firstly through patronizing Jao in guild activities...His being a charlatan meant they worked together to blackmail merchants with Jao doing the dirty work and Gak bailing him out. This has cost Gak money and he lets Jao know it often. Jao therefore tries his damndest to get out of it by paying off the debt incurred.
+
+Blaze on the other hand is a fellow genasi...something Gak could tell immediately. Knowing he has a child somewhere in the world that grew up alone, he treats Blaze as a sort of son to himself. This meant taking steps to protect Blaze from the corners. Eventually Blaze figured it out and confronted him on this. They have a sort of father-son bond that is only disrupted by their absolutely different personalities--Gak being cool and sly like water while Blaze is passionately angry and prone to unbecoming behaviors that Gak finds intolerable (such as his flaw of eating like a pig)
+
+The last of the gangly bunch of Shump the Halforc fighter. Shump serves as Gak's bodyguard, originally just to fill the need of the con but later proven to be a good choice anyway.
+
+Shump is a former captain of a detachment of Waterdeep guard sent to protect caravans to Mithral Hall. This command did not last too long because it was overtaken by other orcs and wiped out. Shump and the former cook were the only survivors, reporting back to Waterdeep in shame. While Shump desired to fight onward and fall in battle if need be, the cook persuaded him to report back and request reinforcements. Not being bright, but, having some wisdom, Shump did this. The response from leadership of the city was not forthcoming and he was put on leave. He now feels strongly negative about orcs more than he already did for his sufferings as the rape-child of a young human.  In a way, his behavior is like Jimmy Darmody from Boardwalk Empire: a former soldier who is over the glitter of idealism, having lost too many friends, and hateful of those that led to his circumstances.
+
+For survival purposes Shump has been under the retainer of Gak, a purported Pirate Lord residing in Waterdeep. To Gak's surprise, many guardsmen recognized and gave deference to Shump....although not all of them have a rosy view.
+-----------
+L2 changes to party:
+Gak --> L2 Goolock. Warlock class at L2 gets Eldritch Invocations *2. Still knows 2 cantrips base. Knows 3 spells L1. upgrades to 2 spell slots at L1. HD goes up 1. HP goes up 1d8+conmod*L2+....so 1d8+3. rolled 2. = 2+3=5hp added. Will choose Repelling Blast and Eldritch Sight. New spell known is Armor of Agathys
+
+Derv--> L2 Aberrant Mind Sorcerer. At L2,regular Sorc gets 2 sorc points, Feature Font-of-Magic, and gets 3 L1 casts.  Font-of-Magic means we start gathering sorc points. We start with 2 and gain more over levels. All points returned at long rest.
+Additionally, flexible casting == can use sorc points to gain additional spell slots. Likewise slots can be sacrificed to trade for sorc points at rate in the table(phb pg101). This is a bonus action.  These will be useful later in meta magic stuff from L3 onward.  Swapped detect magic -> mage armor.
+HD 1d6+1. roll 1,+1, = +2...+7 L1hp for total of 9hp at L2. At time of leveling up, he had 2hp from battle.
+
+Jao---> Rogue2. Gains Cunning Action.Gains 1d8+conmod hp.HD up to 2d8. Cunning Action means quick movement/acting. Can take bonus action each turn in combat. Can dash,disengage,or hide.
+hp = 10base(8+2conmod) + (1d8+2) = 10+7roll+2conmod=19hp now.
+
+Blaze--->Sorc2. Gets 2 sorc points, Font-of-Magic,3 L1 casts. HP boost 1d6+3(con).6roll+3con=9...putting him at 18hp.
+
+Shump-->Fighter2. Gets action surge(*1).HD 2d10. HP=13L1Base + 1d10+con == 13+4+3 == 20.  Action surge means extra action granted...but attack isn't til L5.
+-----------------------
+[Gak:L3 Warlock/Goolock. Gains 1d8+3conmod. 24Max hp and current hp. Gains pact boon(tome, +3 cantrips(mage hand, chilltouch,poison spray). Gains +1 spells known(Spiderclimb-L2). Still has 2slots but casts at 2nd level.]
+[Shump: L3 Fighter. Gains 1d10+3(conmod) hp = 10+3=13hp = 33max, current 30hp. Also gains archetype. Battlemaster archetype. Gains 3 maneuvers, can only use 1 per attack. Also gains superiority dice(*4, which are d8.). When expended, superiority dice assist in maneuvers. Maneuver 1: Precision attack(when attacking, expend superiority die to add to roll even after already rolled). Maneuver 2: Sweeping Attack(When hitting, use superiority die to damage other creature within reach and 5ft of attacked target. If initial attack roll hits, target 2 gets damage equal to d8 roll of the superiority die). Maneuver 3: Parry(when damaged by enemy, reaction to roll superiority die and reduce damage by d8+dexmod). All maneuver save DC are 8 + profbonus + str/dex mod(choice). Student of war: proficiency with 1 type of artisans’ tools of choice:alchemist’s tools. ]
+[Jao:L3 Rogue. Gains 1d8hd. 1d8+3conmod = 1roll+3=4hp. 23max/current hp. 2D6 sneak attack. Roguish Archetype. Soulknife. Gains 2*profbonus in d6 dice to fuel powers.  = 4 dice. Return on long rest.Can regain 1 die as bonus action per rest.. Powers that use the dice: Psi-bolstered knack(When proficient and fail on a skill/tool check, roll 1 die(d6) to add to score at cost of psi energy dice. If success, expended. If fail, the die isn’t expended). Psychic whispers(1 to profbonus in creatures to telepathically communicate. Roll the die. For hours equal to number rolled, creatures can speak 2way telepathically. To send/receive msg doesn’t cost action but must be within 1 mile distance. Only applies to creatures with language but need not be shared language, creature can “cut off the call” at any time. First time used after each long rest this is free. Afterward it costs a die.).  Psychic Blades: As attack action can manifest a magic blade with finesse/thrown properties and 60ft range. On a hit, 1d6+attackmod(str/dex) psy dmg. After hit/miss, blade disappears, and no signs of damage left behind. After attack, can make another second as bonus action on same turn if other hand is free. Dmg of that one is 1d4 instead of 1d6.]
+[Blaze:Sorc3. 1D6hd = 2+3conmod = 5 hp. 18+5 = 23hp max/current. 3 sorcery points. Metamagic:can twist spells with sorc points. 2 metamagic options. Empowered Spell(metamagic) (1 sorc point to reroll dice up to chamod, must take new rolls, for damage on spell.Quickened spell(spells with 1action casting time can be turned into bonus action cast at cost of 2sorc points.). +1 spells known. 4 spells known total. 2 2nd level slots. Web(L2) gained.]
+[Darv:Sorc3 1d6hd = 3+1=4 = 9+4 = 13hp max/current. 3 sorcery points. Metamagic *2: empowered, quickened. 4cantrips+4spells known +4L1 slots +2L2 slots + 3psionL1spells(arms of hadar,dissonant whispers, mindsliver) + 2 psionicL3spells(calm emotions,detect thoughts).
+Spell refresher: 0(Cantrip): Mindsliver,firebolt,light,mending. L1*4 uses: Charm person, mage armor, dissonant whispers, silvery barbs, arms of hadar, mindsliverL1.L2*2uses:Spiderclimb.]
+--------------
+L4 Details.
+Gak: L4 Goolock. Gains 1d8+3(conmod) hp. 7+3= +10hp. Max HP 34 and current HP34. Prof bonus still +2. Ability Score= +2 on Charisma 14->16.  +3mod. 3 base cantrips known. 5 spells known, 2 spell slots, 2nd level slots. 2 invocations known.(New spells: cantrip== mindsliver, L2 == Invisibility). Also Goolock spells: detect thouts, phantasmal force.
+
+Shump: L4 Fighter. Gains 1d10+conmod = 6+3= +9hp. 33->42hp max and current hp. Ability score improvement --> Take Alert feat. +5 initiative bonus, cannot be surprised while conscious, no advantage to attack rolls against Shump by hidden.
+
+Jao: L4 Rogue Soulknife-- gains 1d8+conmod = 2+2=+4hp. 23->27hp. Feat= Shadowtouched. Invisible spell + 1 L1 illusion/necro spell + int/wis/cha +1 ---> Invisible, Disguise Self,Wis +1 --> 12,+1mod.
+
+Blaze:L4 Sorc--+1d6+3 = 2+3=+5hp 23+5=28max hp and current. 4 sorc points, Ability Score Improvement +2 to CHA  16-->18, +4 mod. 
+5 cantrips known, 5 spells known, 4 L1 slots, 3 L2 slots.
+
+Darv: L4 Sorc-->+1d6+1 = 4+1 = +5hp = 14+5=19hp max/current. Ability score improvement +2 cha 16 -->18, +4 mod.
+5 cantrips known, 5 spells known, 4 L1 slots, 3 L2 slots, 
+
+Gak+500gp and backpak w/ parachute(needs 60ft to deploy).
+Gak acquires Stone of Golorr prior to arrest. : Random properties. 1 minor beneficial 1 minor detrimental. ---> beneficial: 40 on d100 roll. "While attuned, cannot be charmed or frightened.".  --> While attuned, nonmagical flames are extinguished within 30 ft of you.
+SOG: Legend Lore. 3 charges. regains 1d3 daily at dawn. Can expend a charge while holding the stone and cast legend lore.  You create direct connection with aboleth and it shares. The aboleth cannot lie but it sometimes is cryptic or vague. It knows where Lord Neverember's secret vault is located. It also knows that 3x keys are needed to open the vault and that a gold dragon named aurinax inhabits the vault to guard the treasure.
+**Failed memory: When attunement ends, DC16 Wis save. On failed save, lose all memory of stone ever being in possession and knowledge imparted by it. Remove curse == 20% chance to restore. Greater restoration == immediately return them.
+**Sentient lawful evil magic item with int 18,wis15,cha18. Can hear and has darkvision to 120ft. Can telepathically communicate with creature attuned to it, learning greatest desires in the process. Hungers for information and will regularly hop around for new owners.
+**Personality is alien intellect that is both domineering and hungry fro knowledge. It thinks of itself as an ageless and immortal god.
+**Destroying the stone: Immune to all damage. Antipathy/sympathy spell destroys it if antipathy selected to repel aberrations. The spell causes it to turn into mucus and be destroyed, then Golorr the aboleth appears in an unoccupied space somewhere within 30ft of the stone's remains. This angers it and it attacks all that it can see.
+------------------LEVEL 5 LEVEL UP------
+Gak L5 Goolock.(Warlock, Great Old One). 
+Gains 1d8+3(conmod) = 3+3=+6 hp Max HP40. Prof bonus +3. 3 base cantrips + 6 spells known + 2 spell slots , up to L3.3 invocations known. GOO extra spells known: Clairvoyance, Sending.
+
+Shump L5 Fighter.Gains 1d10+conmod = 5+3 = 8 + 42 = Max HP50. +3 Prof bonus. Extra Attack : 2 attack actions per turn. 
+
+Jao L5 Rogue(Soulknife).Gains 1d8+conmod = 7+2 = 27+9 = 36hp. +3 prof bonus. 3d6 sneak attack damage. Uncanny Dodge: When hit by attacker that can be seen, can use a reaction to halve the attack's damage against me. Can only use it once per round.
+
+Blaze L5 Sorc. Gains 1d6+3 = 5+3=8 +28 = Max HP36. Sorcery points: 5. +3 Prof bonus. 5 base cantrips, 6 spells known, 4 L1, 3 L2, 2 L3.
+
+Darv L5 Sorc (Ab. Mind). gains 1d6+1 = 2+1=3 + 19 = Max 22HP. Sorc points: 5. +3 Prof bonus. 5 base cantrips, 6 spells known, 4 L1, 3L2, 2L3. Psy spells: Hunger of Hadar, Sending.
+
+items gained: Wings of Flying(Gak),Ring of Feather Falling(Jao),2 immovable rods(Jao),+1 longsword(Shump),2 sets elven chain (Blaze,Darv),Rod of Pact Keeper +1(Gak),Bloodwell Vial(Blaze).
+----
+Items gained at end of Cassalanter Villa encounter/money paid as reward:
+Gak has slippers of spider climbing, cloak of displacement. Jao has boots and cloak of elvenkind and eversmoking bottle. Darv gets night goggles.
+------
+XP up to day 9 encounter end.
+Day7:180xp each
+Day 8: 180xp each
+Day9:120xp each
+Gak = 13558 + 180+180+120 = 14038xp
+Shump = 10232+180+180+120 = 10712xp
+Jao = 14038xp
+Blaze = 9650 + 180+180 + 120 = 10130xp
+Darv = 9650 + 180 + 180 + 120 = 10130xp
+Gak and Jao L6.
+------------
+[Battle summary: Shump 38hp/50max. 10 top floor Bollywogs + 21/24 bottom floor bollywogs = 31 /34 bollywogs. + Pharblex (CR3..700xp) = 31 * 50 + 700 = 2250xp.  Going to give every character this as reward for sealing the rebellion.
+
+Gak:16685xp + 2250= 18935
+Shump:12609xp+2250 = 14859
+Jao:15435xp + 2250 = 17685
+Blaze: 12527xp + 2250 = 14777
+Darv = 11077xp+2250 = 13327
+L6 starts at 14000.
+Blaze == L6 now
+Shump == L6 now.
+Darv close to L6.
+]
+
+Shump L6 --> Fighter6(Battle Master)
++3 prof bonus, +hitdice(10)+conmod to hp==3+3=+6hp to 56max, ability score improvement--> feat: fey-touched. +1 int/wis/cha + mistystep and 1 Div/ench L1 spell.
+--> +1 int to 8 for the -1 instead of -2...  --> hex for spell.
+Shump hp 38+6 = 44hp / 56max right now.
+
+Blaze L6 --> Sorc6 wild magic.Gets "Bend Luck" origin feature.  When another creature visible makes attack roll, or ability check or saving throw, can use reaction and 2 sorc points to roll 1d4 and apply it as bonus or penalty(your choice) to roll.Can do so before effects occur(i.e. even after roll).
+
++3prof,6 sorc points base. 5 cantrips, 7 spells known, 4L1,3L2,3L3.... hp -> +5+3 = +8hp. 36 + 8 =44max. Picked haste for new spell.
+---------
+16 cultists:16*25=400
+7 dragonwings(CR2)= 7*450=3150
+Dralmorrer: 700xp
+==4250.
+Gak 18935 + 4250=
+Shump 14859 + 4250=
+Jao 17685+4250=
+Blaze 14777 + 4250=
+Darv 13327+4250 = 
+-----------
+Gak L7 -----> Warlock L7 ----> +5HP , 8 spells known(+1 known). Still 2 slots. Slot level is now L4. 4 invocations known. Maybe kiss of mephistopheles or mask of manyfaces or sculptor of flesh... fireball vs disguise self at will vs polymorph 1/long rest.
+swap out hold person for summon abberation....New spell is summon greater demon.
+
+Darv L6 --> Sorc L6 --> +5HP, +3prof bonus, 6 sorc points, Sorc origin feature: psionic sorcerery. L1+ spells can cast with spell slot or sorc points at spell level. Also has Psychic defenses == resist to psydmg and advantage on saves for charm/fear., 7 spells known(+1),3 L3 slots....Enemies Abound is new L3 spell.
+
+---------
+Shump = L7 Fighter------> +7hp to 56+7=63hp max+3con=66max,+3prof bonus, Martial archetype feature:Know your enemy== spend a minute observing or interacting with a creature outside combat, learn certain information about it. Shump will know it's strength,dex,con,AC,current hp, class levels.  , +2 more additional maneuvers, +1 superiority die d8.Menacing Attack (1 sup die to wis check to scare. DC 8+prof(3)+str(+4). D8 added to damage.If fails save, target frightened for turn. Disadvantage on checks/attacks while it can see Shump and won't willingly move closer., Riposte(1 sup die to reaction move when a creature misses. Make an attack. If hit, add sup die to damage roll)
+Jao = L7 Rogue Soulknife----> 1d8(or 5)+hp=45+5+2=+7=52hpmax, +3 prof bonus, 4d6 sneak attack, Evasion feature(area effects that have dex saving throw for half damage become 0 damage if pass and half damage if fail.
+
+Blaze = L7 Sorc---> +3 prof bonus, +d6+con to hp=44+8=52hpmax, 7 sorc points. 5 cantrips, 8 spells known,4 L1 slots, 3L2 slots, 3L3 slots, 1 L4 slot. New spell: Wall of Fire(L4)
+
+Darv = L7 Sorc----> +3 prof bonus, +d6+con to hp==27+6+1= 34max, 7 sorc points. 5 cantrips,8 spells known, 4 L1, 3 L2, 3 L3, 1 L4 slots. New Spell: Greater Invisibility(L4)
+
+Darv = L7 Sorc
+-------------------
+note: vampire tower: 25ft tall room by 80ft wide in 100ft tower where 75ft up is only chamber.
+1 fireball cast by Blaze of 3...
+1 chromatic orb of 4 by Blaze, 1 more(round 9) = 2of 4.
+7-1(quicken) = 6 base sorc points Blaze. -1 (quicken) = 5.
+--------
+Gak xp counter after skycastle so far. Charsheet says 25185.Just prior chapter, Gak received +2k experience while everyone else moved to L7 at 23000.. Gak was L7 with 23185xp in Castle Nerytar. He got 2000 = 23185+2000=25185. Makes sense. + 770 from Red Wizards battle (for Gak)...from 3850 /5.  +2520xp each after Rezmir and co arrive to investigate, from (8300+38450+450)/5.  +3620xp for Gak and Shump from the ogre stuff while the rest of party in vampire battle got 2720(from 13600/5).
+
+Gak = 25185 + 770(redwiz) + 2520(Rezmir) + 3620(vampire/ogre) = 32095.
+Shump = 23000+770+2520 +3620 = 
+---------
+dragon encounter spells/points/other
+1 fireball of 3 L3 spells Blaze.1 haste = 2 of 3 L3, 2nd fireball = 3/3 L3 used.
+2 of 3 potential staff fireballs used by Gak
+Shump used hex
+-1srcpt for empowered, --2 for quickened chromatic orb
+-----------------
+6-1=5 greater healing potions for Gak
+1 of 3 L3 for Blaze. Fireball.2 of 3 L3. Fireball.
+
